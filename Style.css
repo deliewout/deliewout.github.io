@@ -1,12 +1,18 @@
 body{
-    background-color: grey;
+    background-color: rgb(34, 40, 49);
+    color: rgb(0, 173, 181);
 }
-ul {
+hl {
     list-style-type: armenian;
     margin: auto;
     padding: auto;
     overflow: hidden;
-    background-color: beige;
+    background-color: rgb(220, 245, 225);
+}
+p
+{
+ font-family:sans-serif ;
+ font-size: 20px;
 }
 
 ul li
