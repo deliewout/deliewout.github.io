@@ -18,7 +18,7 @@ hl {
 }
 
 div {
-    display: flex;
+    display: column;
     justify-content: center;
     align-items: center;
 }
@@ -30,9 +30,9 @@ div {
 }
 .title {
     display: flex;
-    justify-content: left;
-    align-items: left;
-    height: 100vh;
+    justify-content: column;
+    align-items: flex-start;
+
 }
 
 p
