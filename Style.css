@@ -2,6 +2,11 @@ body{
     background-color: rgb(34, 40, 49);
     color: white;
 }
+video
+{
+    width: 100%;
+    height: auto;
+}
 
 hl {
     list-style-type: armenian;
@@ -16,6 +21,12 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 p
