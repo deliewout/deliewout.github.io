@@ -21,6 +21,12 @@ hl {
 div {
     display: block;
 }
+
+footer{
+    background-color: skyblue;
+    text-align : center;
+    padding: 20px;
+}
 .title {
     display: flex;
     flex-direction: column;
@@ -43,6 +49,9 @@ p
 {
  font-family:sans-serif ;
  font-size: 20px;
+}
+h1:hover, h2:hover, p:hover {
+    border-bottom: 3px solid white;
 }
 
 .icons {
