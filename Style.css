@@ -55,8 +55,18 @@ footer{
 }
 .project-card img
 {
-    width: 100%;
+    max-width: 100%;
+    width: 300px;
     height: auto;
+}
+.project-card .gif {
+    display: none;
+}
+.project-card:hover .jpg {
+    display: none;
+}
+.project-card:hover .gif {
+    display: block;
 }
 p
 {
