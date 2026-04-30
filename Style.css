@@ -34,7 +34,7 @@ div {
 }
 
 footer{
-    background-color: skyblue;
+    background-color: rgb(37, 63, 73);
     text-align : center;
     padding: 20px;
 }
@@ -94,6 +94,9 @@ p
     max-width: 1000px;
     margin: 60px auto;
     padding: 20px;
+}
+.projects h2{
+    text-align: center;;
 }
 
 .project-grid {
