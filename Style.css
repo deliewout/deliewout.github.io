@@ -78,6 +78,14 @@ p
     display: flex;
     justify-content: center;
 }
+.cv{
+    margin-top: 30px;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    border: none;;
+}
 
 ul{
     list-style-type: none;
