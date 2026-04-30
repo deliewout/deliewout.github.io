@@ -59,21 +59,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.project-card img
-{
-    max-width: 100%;
-    width: 300px;
-    height: auto;
-}
-.project-card .gif {
-    display: none;
-}
-.project-card:hover .jpg {
-    display: none;
-}
-.project-card:hover .gif {
-    display: block;
-}
+
 p
 {
  font-family:sans-serif ;
@@ -93,6 +79,47 @@ p
     border: none;
 }
 
+.hero {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.subtitle {
+    color: #bbb;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.projects {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: rgb(44, 50, 60);
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    width: 300px;
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
 .about-wrapper {
     max-width: 900px;
     margin: 60px auto 40px;
