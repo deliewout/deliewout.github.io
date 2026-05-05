@@ -14,16 +14,10 @@ iframe
 
 }
 
-hl {
-    list-style-type: armenian;
-    margin: auto;
+ul {
+    list-style: none;
+    margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    background-color: rgb(241, 248, 242);
-    font-size: 60px;
 }
 h3{
     align-items: center;
@@ -37,6 +31,10 @@ footer{
     background-color: rgb(37, 63, 73);
     text-align : center;
     padding: 20px;
+}
+footer a{
+    color: rgb(65, 116, 139);
+    text-decoration: none;
 }
 
 .title {
@@ -58,6 +56,15 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(37, 63, 73);
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
 }
 
 p
@@ -209,6 +216,22 @@ p
 }
 
 .about-section p {
+    font-size: 0.97rem;
+    line-height: 1.8;
+    color: #b8b8b8;
+    margin: 0;
+}
+.learned-section {
+    border-left: 4px solid #222;
+    padding: 20px 0 20px 28px;
+    margin-bottom: 40px;
+}
+.learned-section h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin: 0 0 12px;
+}
+.learned-section p{
     font-size: 0.97rem;
     line-height: 1.8;
     color: #b8b8b8;
