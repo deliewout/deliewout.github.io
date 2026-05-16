@@ -1,0 +1,54 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../Style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <ul>
+        <div class="navbar">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../About Me.html">About Me</a></li>
+    <li><a href="../Resume.html">Resume</a></li>
+    </div>
+</ul>
+</head>
+<body>
+
+
+<div class="about-wrapper">
+    <div class="about-hero">
+        <div class="about-photo">
+            <img src="../Resources/bthLogo.png" alt="Project Hero Image">
+        </div>
+        <div class="about-intro">
+            <h1>
+                Battles Through History
+            </h1>
+            <p>A prototype we had to make for a unity game in the course game mechanics, which is a destroy the enemy base game.</p>
+        </div>
+    </div>
+    <div class="about-section">
+        <h2>Project Details</h2>
+        <p>The first prototype of a game I made in unity. The full idea of the game was to fight through different famous battles troughout diffrent ages, like the fall of constantinople, Troy, etc.
+            <br><br>The project features the ability to choose between 3 different fighters to attack the wall at the other side, that is being defended by the same types of enemies. Every enemy defeated gives you coins and the ability to buy more friendlies and thus getting more troupes. Just for a bit of a random addtion that every few seconds comets fall from the sky to damage the troops on both sides.</p>
+        </p>
+        <div class="about-section">
+        <h2>Links</h2>
+        <p>
+            <a class="project-link" href="https://github.com/deliewout/BattlesThroughHistory" target="_blank" rel="noopener noreferrer">see on github</a>
+        </p>
+    </div>
+
+    </div>
+    <div class="about-section">
+        <h2>Screenshots</h2>
+        <div class="project-screenshots">
+            <img src="../Resources/BattlesTutorial.png" alt="Game Screenshot 1">
+            <img src="../Resources/BattlesLevel.png" alt="Game Screenshot 2">
+        </div>
+    </div>
+<footer>
+    <p><a href="mailto:wout.delie@student.howest.be">wout.delie@student.howest.be</a><br>
+
+    </p>
+</footer>
+</body>
+</html>
