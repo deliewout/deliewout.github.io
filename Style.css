@@ -296,7 +296,7 @@ p
     font-size: 1.6rem;
     margin: 0 0 12px;
 }
- .about-section ul {
+.about-section ul {
     font-family: 'Playfair Display', serif;
     font-size: 1.6rem;
     list-style-type: disc;
@@ -308,6 +308,36 @@ p
     line-height: 1.8;
     color: #b8b8b8;
     margin: 0;
+}
+.skills-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+.skill-card {
+    flex: 1 1 240px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 18px 22px;
+}
+.skill-card h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+.skill-card ul {
+    margin: 12px 0 0;
+    padding-left: 20px;
+    color: #b8b8b8;
+}
+.skill-card li {
+    margin-bottom: 10px;
+}
+@media (max-width: 800px) {
+    .skills-grid {
+        flex-direction: column;
+    }
 }
 .learned-section {
     border-left: 4px solid #222;
