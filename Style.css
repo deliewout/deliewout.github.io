@@ -226,6 +226,22 @@ p
     margin: 0 auto;
 }
 
+.project-screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-screenshots img {
+    width: 100%;
+    max-width: 380px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 18px;
+    display: block;
+}
+
 .project-card p {
     margin-top: 10px;
     font-size: 14px;
